@@ -37,7 +37,7 @@ public:
     double error = Clear_Rate_Point - Flow_Rate;
 
     //Calculate time differenc
-    double dt = millis() - Prev_Time;
+    double dt = (millis() - Prev_Time) / 1000.0;
     Prev_Time = millis();
 
     //Calculate control signal
