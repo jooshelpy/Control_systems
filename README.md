@@ -1,41 +1,43 @@
-# README.md
+# TASK7.3- Hero of Mobility
 
-# TASK7.2-**Magic of PID**
+# Forward Kinematic
 
----
+[https://www.notion.so](https://www.notion.so)
 
-## Task description
+![Untitled](TASK7%203-%20Hero%20of%20Mobility%205225380ddd804df99cb21dd8156adb56/Untitled.png)
 
-If you have a flow meter that measures the flow rate in the cleaner hose, implement PID that makes suction mechanism clean at rate 90 CFM (cubic feet per meter)
-
----
-
-### Task output
-
-(.ino) file added to Group repo and it’s documentation in MD
-
----
-
-## Code descitption
-
-Implementing PID 
-
-**Proportional**
+Considering the first wheel which is far of the x-axis by a1 = 30. Then, s1 will go to y-axis by s1cos(a1) and will go to x-axis by -s1sin(a1). Adding all other compounds the result will be
 
 ```arduino
-float p_cur_val = kp * error;
+Vy = s1*np.sin(30) + s2*-np.sin(150) + s3*-np.sin(270)
+
+Vx = s1*np.cos(30) + s2*np.cos(150) + s3*np.cos(270)
 ```
 
-Integration
+while the w will be the sum of all V of the wheels
 
-```arduino
-float i_cur_val = ki * (error + e_last_val) / 2.0 * time_delay;
-```
+[https://www.notion.so](https://www.notion.so)
 
-**Derivative**
+![Untitled](TASK7%203-%20Hero%20of%20Mobility%205225380ddd804df99cb21dd8156adb56/Untitled%201.png)
 
-```arduino
-float d_cur_val = kd * (error - e_last_val) / time_delay;
-```
+Therefore, the matrix for the Forward Kinematic will be
 
-Adding 3 values to get the old current value and print it to serial
+[https://www.notion.so](https://www.notion.so)
+
+![Untitled](TASK7%203-%20Hero%20of%20Mobility%205225380ddd804df99cb21dd8156adb56/Untitled%202.png)
+
+# Reverse Kinematic
+
+using the above information and forming the matrix of forward Kinematic the matrix for the reverse will be
+
+[https://www.notion.so](https://www.notion.so)
+
+![Untitled](TASK7%203-%20Hero%20of%20Mobility%205225380ddd804df99cb21dd8156adb56/Untitled%203.png)
+
+# Transferring from local to global
+
+using the same equation in the video since considering 2D
+
+[https://www.notion.so](https://www.notion.so)
+
+![Untitled](TASK7%203-%20Hero%20of%20Mobility%205225380ddd804df99cb21dd8156adb56/Untitled%204.png)
