@@ -4,10 +4,6 @@
 
 The Cytron MDD10A is a motor driver module developed by Cytron Technologies.It is the dual-channel version designed to drive 2 brushed DC motors with a high current of up to 10A continuously. MDD10A also supports locked-antiphase and sign-magnitude PWM signal. It is designed to control the motion of DC motors, making it a key component in robotics, automation, and other projects that involve motor control.
 
-## Objective
-
-The objective of this task is to create an Arduino sketch for controlling a DC motor's speed and direction. The sketch employs a simple exponential smoothing filter to smoothly adjust the motor's speed.
-
 ## Prerequisites
 
 Before attempting this task, you will need the following components:
