@@ -1,0 +1,73 @@
+Added Component: Designator=*(MPU6050)
+Added Component: Designator=Arduino Uno(Arduino Uno)
+Added Component: Designator=D*(DATA_PIN_HEADER_4_2.54m)
+Added Component: Designator=H*(FEMALE_HEADER_2)
+Added Component: Designator=U(TO127P2020X500X2100-15)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "L298N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Multiwatt-15 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/294022/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=*-VCC
+Added Pin To Net: NetName=+5 Pin=D*-1
+Added Net: Name=+5
+Added Pin To Net: NetName=+12 Pin=H*-1
+Added Net: Name=+12
+Added Pin To Net: NetName=Echo Pin=Arduino Uno-12
+Added Pin To Net: NetName=Echo Pin=D*-3
+Added Net: Name=Echo
+Added Pin To Net: NetName=EN_A Pin=Arduino Uno-9
+Added Pin To Net: NetName=EN_A Pin=U-6
+Added Net: Name=EN_A
+Added Pin To Net: NetName=EN_B Pin=Arduino Uno-10
+Added Pin To Net: NetName=EN_B Pin=U-11
+Added Net: Name=EN_B
+Added Pin To Net: NetName=IN_1 Pin=Arduino Uno-4
+Added Pin To Net: NetName=IN_1 Pin=U-5
+Added Net: Name=IN_1
+Added Pin To Net: NetName=IN_2 Pin=Arduino Uno-5
+Added Pin To Net: NetName=IN_2 Pin=U-7
+Added Net: Name=IN_2
+Added Pin To Net: NetName=IN_3 Pin=Arduino Uno-6
+Added Pin To Net: NetName=IN_3 Pin=U-10
+Added Net: Name=IN_3
+Added Pin To Net: NetName=IN_4 Pin=Arduino Uno-7
+Added Pin To Net: NetName=IN_4 Pin=U-12
+Added Net: Name=IN_4
+Added Pin To Net: NetName=INT_1 Pin=*-INT
+Added Pin To Net: NetName=INT_1 Pin=Arduino Uno-2
+Added Net: Name=INT_1
+Added Pin To Net: NetName=N_12 Pin=Arduino Uno-Vin
+Added Pin To Net: NetName=N_12 Pin=U-9
+Added Net: Name=N_12
+Added Pin To Net: NetName=N_GND Pin=*-GND
+Added Pin To Net: NetName=N_GND Pin=Arduino Uno-GND1
+Added Pin To Net: NetName=N_GND Pin=Arduino Uno-GND2
+Added Pin To Net: NetName=N_GND Pin=Arduino Uno-GND3
+Added Pin To Net: NetName=N_GND Pin=D*-4
+Added Pin To Net: NetName=N_GND Pin=H*-2
+Added Pin To Net: NetName=N_GND Pin=U-8
+Added Net: Name=N_GND
+Added Net: Name=NetD?_1
+Added Net: Name=NetD?_2
+Added Net: Name=NetQ?_2
+Added Pin To Net: NetName=OUT_1 Pin=U-2
+Added Net: Name=OUT_1
+Added Pin To Net: NetName=OUT_2 Pin=U-3
+Added Net: Name=OUT_2
+Added Pin To Net: NetName=OUT_3 Pin=U-13
+Added Net: Name=OUT_3
+Added Pin To Net: NetName=OUT_4 Pin=U-14
+Added Net: Name=OUT_4
+Added Pin To Net: NetName=SCL_1 Pin=*-SCL
+Added Pin To Net: NetName=SCL_1 Pin=Arduino Uno-A5
+Added Net: Name=SCL_1
+Added Pin To Net: NetName=SDA_1 Pin=*-SDA
+Added Pin To Net: NetName=SDA_1 Pin=Arduino Uno-A4
+Added Net: Name=SDA_1
+Added Pin To Net: NetName=Trig Pin=Arduino Uno-13
+Added Pin To Net: NetName=Trig Pin=D*-2
+Added Net: Name=Trig
+Added Class: Name=Sheet1
